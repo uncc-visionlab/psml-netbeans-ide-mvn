@@ -6,7 +6,7 @@
         <artifactId>PSML3-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>org.uncc.netbeans.psml.filetype</artifactId>
+    <artifactId>org-uncc-netbeans-psml-filetype</artifactId>
     <packaging>nbm</packaging>
     <build>
         <plugins>
