@@ -40,11 +40,6 @@
             <version>${netbeans.version}</version>
         </dependency>
         <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>org-openide-awt</artifactId>
-            <version>SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-modules-projectuiapi</artifactId>
             <version>RELEASE113</version>
@@ -73,6 +68,11 @@
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-filesystems</artifactId>
+            <version>RELEASE113</version>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-openide-awt</artifactId>
             <version>RELEASE113</version>
         </dependency>
     </dependencies>
