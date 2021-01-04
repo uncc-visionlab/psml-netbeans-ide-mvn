@@ -38,11 +38,6 @@
                     <artifactId>org-netbeans-modules-janitor</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>        
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>PSML3-branding</artifactId>
-            <version>${project.version}</version>
         </dependency>
         <!-- NbModuleSuite functional in RELEASE70 or later: -->
         <dependency>
@@ -60,31 +55,9 @@
         </dependency>
         -->
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>PSMLFileType</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>PSMLProjectType</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.netbeans.modules</groupId>
             <artifactId>org-netbeans-modules-janitor</artifactId>
             <version>RELEASE113</version>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>PSMLFileType</artifactId>
-            <version>${project.version}</version>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>PSMLProjectType</artifactId>
-            <version>${project.version}</version>
-            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.netbeans.cluster</groupId>
@@ -380,18 +353,6 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>PSMLSampleProject</artifactId>
-            <version>${project.version}</version>
-            <scope>runtime</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>unknown.binary</groupId>
-                    <artifactId>org-openide-awt</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-awt</artifactId>
             <version>RELEASE113</version>
@@ -404,15 +365,33 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>PSML3-branding</artifactId>
+            <artifactId>io-github-drwillis-netbeans-psml-filetype</artifactId>
             <version>${project.version}</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.0.0-M5</version>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>io-github-drwillis-netbeans-psml-project</artifactId>
+            <version>${project.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>io-github-drwillis-netbeans-psml-sampleproject</artifactId>
+            <version>${project.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>io-github-drwillis-PSML3-branding</artifactId>
+            <version>${project.version}</version>
             <scope>runtime</scope>
         </dependency>
     </dependencies>
