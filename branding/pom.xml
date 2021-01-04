@@ -8,10 +8,10 @@
       <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>PSML3-branding</artifactId>
+  <artifactId>io-github-drwillis-PSML3-branding</artifactId>
   <packaging>nbm</packaging>
 
-  <name>PSML3-branding</name>
+  <name>io-github-drwillis-PSML3-branding</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -43,4 +43,5 @@
             </plugin>
       </plugins>
   </build>
+    <groupId>io.github.drwillis</groupId>
 </project>

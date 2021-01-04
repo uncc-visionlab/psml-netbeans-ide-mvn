@@ -6,7 +6,7 @@
         <artifactId>PSML3-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>org-uncc-netbeans-psml-project</artifactId>
+    <artifactId>io-github-drwillis-netbeans-psml-project</artifactId>
     <packaging>nbm</packaging>
     <build>
         <plugins>
@@ -101,4 +101,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <groupId>io.github.drwillis</groupId>
+    <name>io-github-drwillis-netbeans-psml-project</name>
 </project>

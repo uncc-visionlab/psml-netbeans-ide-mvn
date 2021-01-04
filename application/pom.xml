@@ -8,10 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>PSML3-app</artifactId>
+    <artifactId>io-github-drwillis-PSML3-app</artifactId>
     <packaging>nbm-application</packaging>
 
-    <name>PSML3-app</name>
+    <name>io-github-drwillis-PSML3-app</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -469,4 +469,5 @@
             </build>
         </profile>
     </profiles>
+    <groupId>io.github.drwillis</groupId>
 </project>
