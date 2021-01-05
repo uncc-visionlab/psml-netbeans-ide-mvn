@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-      <groupId>org.uncc</groupId>
-      <artifactId>PSML3-parent</artifactId>
-      <version>1.0-SNAPSHOT</version>
-  </parent>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.github.drwillis</groupId>
+        <artifactId>io-github-drwillis-netbeans-psml3-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-  <artifactId>io-github-drwillis-PSML3-branding</artifactId>
-  <packaging>nbm</packaging>
+    <artifactId>io-github-drwillis-netbeans-psml-branding</artifactId>
+    <packaging>nbm</packaging>
 
-  <name>io-github-drwillis-PSML3-branding</name>
+    <name>io-github-drwillis-netbeans-psml-branding</name>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.netbeans.api</groupId>
-      <artifactId>org-netbeans-api-annotations-common</artifactId>
-      <version>${netbeans.version}</version>
-    </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-netbeans-api-annotations-common</artifactId>
+            <version>${netbeans.version}</version>
+        </dependency>
+    </dependencies>
 
-  <build>
-      <plugins>
+    <build>
+        <plugins>
             <plugin>
                 <groupId>org.apache.netbeans.utilities</groupId>
                 <artifactId>nbm-maven-plugin</artifactId>
@@ -41,7 +41,7 @@
                     </archive>
                 </configuration>
             </plugin>
-      </plugins>
-  </build>
+        </plugins>
+    </build>
     <groupId>io.github.drwillis</groupId>
 </project>
