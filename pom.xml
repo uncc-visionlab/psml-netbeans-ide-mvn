@@ -63,6 +63,7 @@
         <module>PSMLProjectType</module>
         <module>PSMLFileType</module>
         <module>PSMLSampleProject</module>
+        <module>io-github-drwillis-netbeans-psml-editortools</module>
     </modules>
 
     <properties>
